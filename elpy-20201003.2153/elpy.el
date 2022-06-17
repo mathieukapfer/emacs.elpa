@@ -606,6 +606,7 @@ import sys
 from distutils.version import LooseVersion
 import warnings
 warnings.filterwarnings('ignore', category=FutureWarning)
+warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 try:
     import urllib2 as urllib
